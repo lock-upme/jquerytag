@@ -3,38 +3,38 @@
 step1:
 
 引用 jquery.min.js
-<script src="../jquery.min.js"></script>
+&lt;script src="../jquery.min.js"&gt;&lt;/script&gt;
 
 引用 lockTag.js
-<script src="lockTag.js"></script>
+&lt;script src="lockTag.js"&gt;&lt;/script&gt;
 
 引用 tag.css
-<link type="text/css" rel="stylesheet" href="tag.css" />
+&lt;link type="text/css" rel="stylesheet" href="tag.css" /&gt;
 
 
 step2:
 在body标签中复制以下标签：
 
 标签:
-<div class=" ui-tageditor" id="tag0">	
-</div>
+&lt;div class=" ui-tageditor" id="tag0"&gt;	
+&lt;/div&gt;
 
-<br/>
+&lt;br/&gt;
 默认标签:
-<div class=" ui-tageditor" id="tag1">	
-</div>
+&lt;div class=" ui-tageditor" id="tag1"&gt;	
+&lt;/div&gt;
 
-<br/>
+&lt;br/&gt;
 只能添加2个标签:
-<div class=" ui-tageditor" id="tag2">	
-</div>
+&lt;div class=" ui-tageditor" id="tag2"&gt;	
+&lt;/div&gt;
 
-<br/>
+&lt;br/&gt;
 默认及添加8个标签:
-<div class=" ui-tageditor" id="tag3">	
-</div>
+&lt;div class=" ui-tageditor" id="tag3"&gt;	
+&lt;/div&gt;
 
-<script>
+&lt;script&gt;
 $(function() {
 	
 	 $('#tag0').lockTag();
@@ -52,4 +52,4 @@ $(function() {
 		 limit : 8
 	 });	 
 });
-</script>
+&lt;/script&gt;
