@@ -1,0 +1,67 @@
+/**
+ * 标签样式
+ * @author lock
+ */
+.ui-tageditor {
+	position: relative;
+	width: 300px;
+	height: auto;
+	border: 1px #dfdfdf solid;
+	zoom: 1;
+}
+
+.ui-tags {
+	clear: both;
+	padding: 10px 0;
+	line-height: 20px;
+}
+
+.ui-tags .ui-tag {
+	position: relative;
+	z-index: 3;
+	float: left;
+	margin-right: 8px;
+	padding: 0 1px;
+	height: 20px;
+	color: #aaa;
+	white-space: nowrap;
+	line-height: 20px;
+}
+
+.ui-iptwrap,.ui-iptwrap input {
+	position: relative;
+}
+
+.ui-iptwrap input {
+	z-index: 2;
+	margin: 0;
+	padding: 0 0 0 2px;
+	height: 20px;
+	min-width: 60px;
+	outline: 0;
+	border: 0;
+	background-color: transparent;
+	color: #333;
+	line-height: 20px;
+}
+/* Remove IE's “clear field” X button */
+input::-ms-clear { display:none; }
+
+.ui-iptwrap label {
+	position: absolute;
+	top: 0;
+	left: 2px;
+	z-index: 1;
+	display: block;
+	overflow: hidden;
+	width: 17pc;
+	height: 19px;
+	color: #ccc;
+	font-size: 14px;
+	line-height: 19px;
+}
+
+.ui-tags .ui-tag:hover {
+	text-decoration: line-through;
+	cursor: pointer;
+}
